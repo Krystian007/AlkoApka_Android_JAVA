@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="60px"
+            tools:ignore="MissingConstraints">
+
+            <Switch
+                android:id="@+id/wodka_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wódka" />
+            <Switch
+                android:id="@+id/scotch_whisky_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scotch Whisky" />
+            <Switch
+                android:id="@+id/burbon_whisky_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burbon Whysky" />
+            <Switch
+                android:id="@+id/american_blended_whiskey_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="American Blended Whyskey" />
+
+            <Switch
+                android:id="@+id/apple_brandy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple Brandy" />
+            <Switch
+                android:id="@+id/cherry_brandy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cherry Brandy" />
+            <Switch
+                android:id="@+id/irish_whisky_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Irish Whisky" />
+            <Switch
+                android:id="@+id/metaxa_brandy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metaxa Brandy" />
+            <Switch
+                android:id="@+id/white_rum_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="White Rum" />
+            <Switch
+                android:id="@+id/golden_rum_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Golden Rum" />
+            <Switch
+                android:id="@+id/dark_rum_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dark Rum" />
+            <Switch
+                android:id="@+id/dry_gin_silver_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dry Gin Silver" />
+            <Switch
+                android:id="@+id/tequila_blanco_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tequila Blanco" />
+            <Switch
+                android:id="@+id/tequila_reposado_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tequila Reposado" />
+            <Switch
+                android:id="@+id/sambuca_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sambuca" />
+
+            <Switch
+                android:id="@+id/jagermeister_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:text="Jagermeister"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/vermout_martini_dry_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vermout Martini Dry" />
+            <Switch
+                android:id="@+id/vermout_martini_rosso_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vermout Martini Rosso" />
+            <Switch
+                android:id="@+id/vermout_martini_bianco_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vermout Martini Bianco" />
+            <Switch
+                android:id="@+id/vermout_cinzano_dry_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vermout Cinzano Dry" />
+            <Switch
+                android:id="@+id/vermout_cinzano_rosso_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vermout Cinzano Rosso" />
+            <Switch
+                android:id="@+id/vermout_cinzano_bianco_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vermout Cinzano Bianco" />
+            <Switch
+                android:id="@+id/maraschino_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maraschino" />
+            <Switch
+                android:id="@+id/banana_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Banana Likier" />
+            <Switch
+                android:id="@+id/triple_sec_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Triple Sec" />
+            <Switch
+                android:id="@+id/amaretto_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amaretto Likier" />
+            <Switch
+                android:id="@+id/peach_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peach Likier" />
+            <Switch
+                android:id="@+id/blue_curacao_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blue Curacao Likier" />
+            <Switch
+                android:id="@+id/dry_orange_curacao_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dry Orange Curacao" />
+            <Switch
+                android:id="@+id/peppermint_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peppermint Likier" />
+            <Switch
+                android:id="@+id/coffee_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coffee Likier" />
+            <Switch
+                android:id="@+id/cocosowy_likier_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kokosowy Likier" />
+            <Switch
+                android:id="@+id/irish_cream_liqueur_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Irish Cream Liqueur" />
+            <Switch
+                android:id="@+id/strawberry_liqueur_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strawberry Liqueur" />
+            <Switch
+                android:id="@+id/advocaat_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advocaat" />
+            <Switch
+                android:id="@+id/malibu_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malibu" />
+            <Switch
+                android:id="@+id/sliwowica_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Śliwowica" />
+            <Switch
+                android:id="@+id/angostura_bitters_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angostura Bitters" />
+            <Switch
+                android:id="@+id/orange_bitters_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orange Bitters" />
+            <Switch
+                android:id="@+id/campari_bitter_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campari Bitter" />
+            <Switch
+                android:id="@+id/mandarinetto_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mandarinetto" />
+            <Switch
+                android:id="@+id/cydr_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cydr" />
+            <Switch
+                android:id="@+id/grenadine_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grenadine" />
+            <Switch
+                android:id="@+id/syrop_malinowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syrop malinowy" />
+            <Switch
+                android:id="@+id/syrop_truskawkowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syrop truskawkowy" />
+            <Switch
+                android:id="@+id/syrop_wisniowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syrop wiśniowy" />
+            <Switch
+                android:id="@+id/syrop_cukrowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syrop cukrowy" />
+            <Switch
+                android:id="@+id/sok_cytrynowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok cytrynowy" />
+            <Switch
+                android:id="@+id/sok_limonkowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok limonkowy" />
+            <Switch
+                android:id="@+id/sok_pomaranczowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok pomarańczowy" />
+            <Switch
+                android:id="@+id/sok_mandarynkowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok mandarynkowy" />
+            <Switch
+                android:id="@+id/sok_grejpfrutowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok grejpfrutowy" />
+            <Switch
+                android:id="@+id/sok_annasowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok annasowy" />
+            <Switch
+                android:id="@+id/sok_jablkowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok jabłkowy" />
+            <Switch
+                android:id="@+id/sok_zurawinowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok żurawinowy" />
+            <Switch
+                android:id="@+id/sok_z_czerwonej_porzeczki_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok z czerwonej porzeczki" />
+            <Switch
+                android:id="@+id/nektar_mango_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nektar mango" />
+            <Switch
+                android:id="@+id/sok_pomidorowy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sok pomidorowy" />
+            <Switch
+                android:id="@+id/coca_cola_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coca-Cola" />
+            <Switch
+                android:id="@+id/seven_up_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7-up" />
+            <Switch
+                android:id="@+id/schweppes_bitter_lemon_soda_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schweppes bitter lemon" />
+            <Switch
+                android:id="@+id/schweppes_bitter_orange_soda_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schweppes bitter orange" />
+            <Switch
+                android:id="@+id/schweppes_tonic_soda_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schweppes tonic" />
+            <Switch
+                android:id="@+id/slodka_smietanka_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Słodka śmietanka" />
+            <Switch
+                android:id="@+id/woda_sodowa_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Woda gazowana" />
+            <Switch
+                android:id="@+id/zimny_napar_kawy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zimny napar kawy" />
+            <Switch
+                android:id="@+id/goracy_napar_kawy_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gorący napar kawy" />
+            <Switch
+                android:id="@+id/goracy_napar_herbaty_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gorący napar herbaty" />
+            <Switch
+                android:id="@+id/cukier_puder_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cukier puder" />
+            <Switch
+                android:id="@+id/cynamon_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cynamon" />
+            <Switch
+                android:id="@+id/miod_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Miód" />
+            <Switch
+                android:id="@+id/tabasco_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabasco" />
+            <Switch
+                android:id="@+id/sproszkowana_czekolada_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sproszkowana czekolada" />
+            <Switch
+                android:id="@+id/zimne_mleko_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zimne mleko" />
+            <Switch
+                android:id="@+id/bita_smietana_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bita śmietana" />
+            <Switch
+                android:id="@+id/bialko_jajka_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Białko jajka" />
+            <Switch
+                android:id="@+id/zoltko_jajka_switch"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginBottom="20px"
+                android:paddingLeft="10px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Żółtko jajka" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="60px"
+                tools:ignore="MissingConstraints">
+
+                <Button
+                    android:id="@+id/pokaz_drinki_button"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="20px"
+                    android:paddingLeft="10px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Do dzieła" />
+
+                <Button
+                    android:id="@+id/wyczysc_button"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="20px"
+                    android:paddingLeft="10px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Odznacz/zaznacz wszystko" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
